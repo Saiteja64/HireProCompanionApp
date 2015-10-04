@@ -24,6 +24,7 @@
          NSLog(@"%s bobs","success called!");
          LISDKSession *session = [[LISDKSessionManager sharedInstance] session];
          [self performSegueWithIdentifier:@"logIn" sender:self];
+         
      }
      errorBlock:^(NSError * error) {
          NSLog(@"%s bobs","error called!");
