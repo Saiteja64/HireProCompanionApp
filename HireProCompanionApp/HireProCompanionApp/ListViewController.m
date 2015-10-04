@@ -25,6 +25,7 @@
         [_companies addObject :object[@"Name"]];
     }
     
+    
     /*[query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             // The find succeeded.
@@ -50,6 +51,22 @@
     /*NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
     _companies = [defaults objectForKey:@"companies"];*/
     // Do any additional setup after loading the view.
+}
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *selectedCell = [tableView cellForRowAtIndexPath:indexPath];
+    NSString *cellText = [PFUser currentUser][@"companyType"];
+    UILabel * label = (UILabel*)[selectedCell viewWithTag:99];
+    if([cellText containsString:label.text])
+    {}
+    else
+    {
+        NSString *cellText1 = [NSString stringWithFormat: @"%@%@,",cellText,label.text];
+        [PFUser currentUser][@"companyType"] = cellText1;
+        [[PFUser currentUser]saveInBackground];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

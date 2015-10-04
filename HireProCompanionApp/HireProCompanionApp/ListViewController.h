@@ -11,4 +11,5 @@
 @interface ListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (strong,nonatomic) NSMutableArray * companies;
 @property (strong,nonatomic) IBOutlet UITableView * tableview;
+-(IBAction)companyTapped:(id)sender;
 @end

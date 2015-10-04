@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>69F4CB64-E6FA-463F-A3D8-C0625D02F572</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HireProCompanionApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>91CA3DA4576BC916F4C23D7FDE62C10B651F22C1</key>
+		<string>https://github.com/Saiteja64/HireProCompanionApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HireProCompanionApp/HireProCompanionApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>91CA3DA4576BC916F4C23D7FDE62C10B651F22C1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Saiteja64/HireProCompanionApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>91CA3DA4576BC916F4C23D7FDE62C10B651F22C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>91CA3DA4576BC916F4C23D7FDE62C10B651F22C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HireProCompanionApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
