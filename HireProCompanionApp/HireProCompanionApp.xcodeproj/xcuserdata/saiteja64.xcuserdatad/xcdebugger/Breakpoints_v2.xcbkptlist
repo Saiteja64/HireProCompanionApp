@@ -2,4 +2,192 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HireProCompanionApp/ViewController.m"
+            timestampString = "465696313.507134"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-signIn:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HireProCompanionApp/ViewController.m"
+            timestampString = "465696313.903122"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-signIn:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HireProCompanionApp/ViewController.m"
+            timestampString = "465696314.273133"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-signIn:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__25-[ViewController signIn:]_block_invoke_2"
+                  moduleName = "HireProCompanionApp"
+                  urlString = "file:///Users/saiteja64/Documents/Misc/Computer%20App%20Dev/IOS%20Dev/Apps/Real%20Apps/HireProCompanionApp/HireProCompanionApp/HireProCompanionApp/ViewController.m"
+                  timestampString = "465696634.179228"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__25-[ViewController signIn:]_block_invoke_3"
+                  moduleName = "HireProCompanionApp"
+                  urlString = "file:///Users/saiteja64/Documents/Misc/Computer%20App%20Dev/IOS%20Dev/Apps/Real%20Apps/HireProCompanionApp/HireProCompanionApp/HireProCompanionApp/ViewController.m"
+                  timestampString = "465696634.180043"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HireProCompanionApp/ViewController.m"
+            timestampString = "465696314.591021"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-signIn:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HireProCompanionApp/ViewController.m"
+            timestampString = "465696315.308396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-signIn:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__25-[ViewController signIn:]_block_invoke"
+                  moduleName = "HireProCompanionApp"
+                  urlString = "file:///Users/saiteja64/Documents/Misc/Computer%20App%20Dev/IOS%20Dev/Apps/Real%20Apps/HireProCompanionApp/HireProCompanionApp/HireProCompanionApp/ViewController.m"
+                  timestampString = "465696634.260571"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__25-[ViewController signIn:]_block_invoke"
+                  moduleName = "HireProCompanionApp"
+                  urlString = "file:///Users/saiteja64/Documents/Misc/Computer%20App%20Dev/IOS%20Dev/Apps/Real%20Apps/HireProCompanionApp/HireProCompanionApp/HireProCompanionApp/ViewController.m"
+                  timestampString = "465696634.260948"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "532">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HireProCompanionApp/ViewController.m"
+            timestampString = "465696317.804677"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-signIn:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__25-[ViewController signIn:]_block_invoke"
+                  moduleName = "HireProCompanionApp"
+                  urlString = "file:///Users/saiteja64/Documents/Misc/Computer%20App%20Dev/IOS%20Dev/Apps/Real%20Apps/HireProCompanionApp/HireProCompanionApp/HireProCompanionApp/ViewController.m"
+                  timestampString = "465696634.263158"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__25-[ViewController signIn:]_block_invoke_2"
+                  moduleName = "HireProCompanionApp"
+                  urlString = "file:///Users/saiteja64/Documents/Misc/Computer%20App%20Dev/IOS%20Dev/Apps/Real%20Apps/HireProCompanionApp/HireProCompanionApp/HireProCompanionApp/ViewController.m"
+                  timestampString = "465696634.26349"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

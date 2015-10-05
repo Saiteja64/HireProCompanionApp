@@ -23,6 +23,15 @@
      successBlock:^(NSString *returnState) {
          NSLog(@"%s bobs","success called!");
          LISDKSession *session = [[LISDKSessionManager sharedInstance] session];
+         NSURL * url = [NSURL URLWithString:[NSString stringWithFormat:@"https://api.linkedin.com/v1/people/~?format=json"]];
+         [[LISDKAPIHelper sharedInstance]getRequest:[NSString stringWithFormat:@"https://api.linkedin.com/v1/people/~?format=json"] success:^(LISDKAPIResponse *response) {
+             NSLog(@"%@",response);
+             
+         } error:^(LISDKAPIError *error) {
+             NSLog(@"%@",error);
+         }];
+         
+         
          [self performSegueWithIdentifier:@"logIn" sender:self];
          
      }
