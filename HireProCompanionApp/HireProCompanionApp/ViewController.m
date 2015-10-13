@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import <linkedin-sdk/LISDK.h>
+#import <Parse/Parse.h>
+
 //LinkedIn updates
 @interface ViewController ()
 
@@ -22,10 +24,15 @@
      showGoToAppStoreDialog:YES
      successBlock:^(NSString *returnState) {
          NSLog(@"%s bobs","success called!");
-         LISDKSession *session = [[LISDKSessionManager sharedInstance] session];
-         NSURL * url = [NSURL URLWithString:[NSString stringWithFormat:@"https://api.linkedin.com/v1/people/~?format=json"]];
-         [[LISDKAPIHelper sharedInstance]getRequest:[NSString stringWithFormat:@"https://api.linkedin.com/v1/people/~?format=json"] success:^(LISDKAPIResponse *response) {
-             NSLog(@"%@",response);
+        
+          [[LISDKAPIHelper sharedInstance]getRequest:[NSString stringWithFormat:@"https://api.linkedin.com/v1/people/~?format=json"] success:^(LISDKAPIResponse *response) {
+              NSError * error;
+              NSData *jSONResponseData = [response.data dataUsingEncoding:NSUTF8StringEncoding];
+              NSDictionary * jSONuserData = [NSJSONSerialization JSONObjectWithData:jSONResponseData options:NSJSONReadingMutableContainers error: &error];
+              NSString* id = [jSONuserData objectForKey:@"id"];
+              
+              
+              
              
          } error:^(LISDKAPIError *error) {
              NSLog(@"%@",error);

@@ -35,7 +35,6 @@
                                 </state>
                                 <connections>
                                     <action selector="signIn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vZK-ii-48d"/>
-                                    <segue destination="8yX-ve-wYQ" kind="presentation" id="DKR-ZI-URj"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dlp-kF-MdM">
@@ -451,7 +450,4 @@
     <resources>
         <image name="sign.png" width="215" height="41"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="DKR-ZI-URj"/>
-    </inferredMetricsTieBreakers>
 </document>
