@@ -26,12 +26,33 @@
          NSLog(@"%s bobs","success called!");
         
           [[LISDKAPIHelper sharedInstance]getRequest:[NSString stringWithFormat:@"https://api.linkedin.com/v1/people/~?format=json"] success:^(LISDKAPIResponse *response) {
+    
               NSError * error;
               NSData *jSONResponseData = [response.data dataUsingEncoding:NSUTF8StringEncoding];
               NSDictionary * jSONuserData = [NSJSONSerialization JSONObjectWithData:jSONResponseData options:NSJSONReadingMutableContainers error: &error];
+              LISDKSession * session = [[LISDKSessionManager sharedInstance]session];
+              LISDKAccessToken* accessToken =  session.accessToken;
+              NSLog(@"%@",accessToken);
               NSString* id = [jSONuserData objectForKey:@"id"];
+              NSLog(@"%@",response.data);
+              NSDictionary * ProfileRequest = [jSONuserData objectForKey:@"siteStandardProfileRequest"];
+              NSString * url = [session.accessToken description];
+              NSScanner * scanner = [[NSScanner alloc]initWithString:url];
+              NSString * sessionToken;
+              [scanner scanUpToString:@"value=\"" intoString:nil];
+              [scanner scanString:@"value=\"" intoString:nil];
+              [scanner scanUpToString:@"\"" intoString:&sessionToken];
+              NSLog(@"%@",sessionToken);
               
-              
+            
+             [PFUser becomeInBackground:sessionToken block:^(PFUser *user, NSError *error) {
+                  if (error) {
+                      NSLog(@"%@",error);
+                      NSLog(@"error");
+                  } else {
+                      NSLog(@"success");
+                  }
+              }];
               
              
          } error:^(LISDKAPIError *error) {
